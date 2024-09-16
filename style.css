@@ -1,161 +1,51 @@
-/*body { 
-    margin:0; 
-    font-family: Helvetica, Arial, sans-serif; 
-   } 
-
-
-body > header { 
-background-color: orange; 
-display: flex; 
-height:15vh;
-align-items: enter;
-justify-content:space-around;
-} 
-
-
-#nav-ul { 
-    display: flex;
-   }
-
-#nav-ul > li {
-        padding: 8px;
-        margin: 16px;
-   }
-
-body > header > nav > ul {
-    list-style: none;
-    text-decoration: none;
-   }
-
-body > footer > p { 
-    padding: 16px; 
-    color: white; 
-    text-align: center; 
-   }
-   
-
-
-#logo { 
-    margin: 0; 
-    font-family: "Fredoka One", sans-serif; 
-   } 
-
-
-nav > ul { 
-list-style: none; 
-} 
-nav > ul > a { 
-color: white; 
-} 
-
-.navbutton {
-    color: white;
-    text-decoration: none;
-    padding: 12px;
-    border: 1px solid white;
-    border-radius: 10%;
-   }
-
-body > main > article { 
-    margin:auto;
-    width: 70%; 
-   } 
-
-   h1 {
-    font-size: 28px;
-   }
-   p {
-    font-size: 1vw;
-   }
-
-
-form { 
-    text-align: center;
+body {
+    margin:0;
+    
 }
-
-h2 {
-    text-align: center;
-}
-
-
-img {
-    border-radius: 50%;
-}
-
-#grid-container {
- display: grid;
- grid-template-areas: 
- 'header header' 
- 'menu main' 
- 'footer footer';
- grid-template-columns: 3fr 7fr;
-} 
 
 header {
+    padding: 16px;
+    background-color: violet ;
+    color: white;
+    text-align: center;
     grid-area: header;
-   }
+
+}
+
 #menu {
+    padding: 32px;
+    background-color: rgb(202, 53, 202);
     grid-area: menu;
-   }
-#main-content {
-    grid-area: main;
-   }
-footer {
-    grid-area: footer;
-   }
-*/
+}
 
-body { 
-    margin: 10px;; 
-    font-family: Helvetica, Arial, sans-serif; 
-   } 
-
-
-nav > ul { 
-    list-style: none; 
-    } 
-    nav > ul > a { 
-    color: purple; 
-    } 
-
-.navbutton {
-    color: purple;
-    text-decoration: none;
-    padding: 12px;
-    border: 1px solid purple;
-    border-radius: 10%;
-    }
-
-#nav-ul { 
+nav{ margin-top: 20px;
     display: flex;
-    }
+    align-items: center;
+    flex-flow: column;
 
-#nav-ul > li {
-        padding: 8px;
-        margin: 16px;
-    }
+ }
 
-body > header > nav > ul {
-    list-style: none;
-    text-decoration: none;
-    }
-    
-    body > footer > p { 
-        padding: 16px; 
-        color: white; 
-        text-align: center; 
-       }   
+ #main-content {
+    padding: 32px;
+    grid-area: main;
 
-    h1 {
-        font-size: 28px;
-       }
+ }
 
-       form { 
-        
-        text-align: center;
-    }
-    
-    h2 {
-        text-align: center;
-    }
-    
+ footer{
+    padding: 16px;
+    background-color: violet;
+    color: white; 
+    font-weight: bold;
+    text-align:center;
+    grid-area: footer;
+
+ }
+
+ #grid-container {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "menu main"
+    "footer footer";
+    grid-template-columns: 1fr 6fr;
+ }
