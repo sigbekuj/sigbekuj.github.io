@@ -13,7 +13,7 @@ header {
 }
 
 #menu {
-    padding: 32px;
+    padding: 16px;
     background-color: rgb(202, 53, 202);
     grid-area: menu;
 }
@@ -31,6 +31,13 @@ nav{ margin-top: 20px;
 
  }
 
+#form{
+    padding: 32px;
+    font-weight: bold;
+    text-align:center;
+    grid-area: form;
+ }
+
  footer{
     padding: 16px;
     background-color: violet;
@@ -41,11 +48,15 @@ nav{ margin-top: 20px;
 
  }
 
+ 
+
  #grid-container {
     display: grid;
     grid-template-areas: 
     "header header"
-    "menu main"
+    "menu menu"
+    "main main"
+    "form form "
     "footer footer";
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr 7fr;
  }

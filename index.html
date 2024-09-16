@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS GRID</title>
+    <title>My Website</title>
 </head>
 <body>
     <div id="grid-container">
     <header>
-        <h1>NEWS  ARTICLE</h1>
+        <h1>UK News & Weather Forecast</h1>
     </header>
     <div id="menu">
         <nav>
@@ -23,7 +24,44 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur reiciendis temporibus corporis suscipit pariatur unde nostrum ut odio dicta numquam et, consequuntur quia assumenda omnis mollitia architecto culpa animi provident.
         </p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut labore illo quibusdam, culpa minus doloribus, deserunt corrupti pariatur eaque, dolorem beatae veniam sed suscipit atque itaque quas? Ipsa, deserunt quos.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti perferendis mollitia a natus ipsa harum iusto cupiditate unde optio velit. Quasi voluptates commodi cum deserunt vel facilis beatae, soluta quaerat?</p>
+        <h1> Weather Forecast</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum voluptatem perferendis id, deleniti odio vero natus! Hic eligendi doloribus molestias nostrum recusandae ea velit, consequatur tempora corporis laborum enim! Deleniti.</p>
     </section> 
+    <section id="form">
+    <h2>Sign up for the latest news and weather!</h2>
+                    <form action="" method="POST">
+                        <label for="first_name">First Name:</label><br>
+                        <input type="text" id="first_name" name="first_name" required><br><br>
+
+                        <label for="last_name">Last Name:</label><br>
+                        <input type="text" id="last_name" name="last_name" required><br><br>
+
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required><br><br>
+
+                        <label for="password">Password:</label><br>
+                        <input type="password" id="password" name="password" required><br><br>
+
+
+                        <label for="country">Country:</label><br>
+                        <select id="country" name="country">
+                            <option value="england">England</option>
+                            <option value="scotland">Scotland</option>
+                            <option value="Wales">Wales</option>
+                            <option value="northern_ireland">Northern Ireland</option>
+                        </select><br><br>
+                        <label for="bio">Biography:</label><br>
+                        <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
+
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Subscribe to newsletter</label><br><br>
+                        
+                        <input type="submit" value="Submit">
+                </form>
+                </section>
+
+
     <footer>
         &copy; 2024 Joy Sigbeku
     </footer>
