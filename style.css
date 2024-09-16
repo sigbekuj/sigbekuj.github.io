@@ -5,7 +5,7 @@ body {
 
 header {
     padding: 16px;
-    background-color: violet ;
+    background-color: rgb(81, 111, 209) ;
     color: white;
     text-align: center;
     grid-area: header;
@@ -14,7 +14,8 @@ header {
 
 #menu {
     padding: 16px;
-    background-color: rgb(202, 53, 202);
+    color: white;
+    background-color: rgb(92, 92, 228);
     grid-area: menu;
 }
 
@@ -40,7 +41,7 @@ nav{ margin-top: 20px;
 
  footer{
     padding: 16px;
-    background-color: violet;
+    background-color: rgb(75, 75, 179);
     color: white; 
     font-weight: bold;
     text-align:center;
